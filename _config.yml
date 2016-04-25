@@ -1,0 +1,42 @@
+# Site settings
+description: A blog about lorem ipsum dolor sit amet
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+
+# User settings
+username: Gua
+user_description: A Geek, iOS Developer
+user_title: Desgard Duan
+email: gua@desgard.com
+twitter_username: Desgard_Duan
+github_username:  Desgard_Duan
+gplus_username:  Desgard_Duan
+disqus_username: Desgard_Duan
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+permalink: /:title/
+
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+  - title: Series
+    url: /series
+  - title: Tags
+    url: /tags
+  - title: About Me
+    url: /about
+
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
